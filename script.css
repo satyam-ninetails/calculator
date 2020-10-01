@@ -15,9 +15,9 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  min-height: 110vh;
+  grid-template-columns: repeat(4, 90px);
+  grid-template-rows: minmax(130px, auto) repeat(4, 106px);
 }
 
 .right {
@@ -30,13 +30,13 @@ body {
 .left {
   cursor: pointer;
   font-size: 2rem;
-  border: 1px solid black;
+  border: 5px solid black;
   outline: none;
-  background-color: gray;
+  background-color: blue;
 }
 
 .calculator-grid > button:hover {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(235, 225, 225, .9);
 }
 
 .span-two {
